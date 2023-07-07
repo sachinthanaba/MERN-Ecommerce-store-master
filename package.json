@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "backend/server.js",
+  
   "engines": {
     "node": "16.14.1"
   },
@@ -30,5 +31,6 @@
     "npm": "^8.7.0",
     "stripe": "^8.215.0",
     "validator": "^13.7.0"
-  }
+  },
+  "proxy": "http://localhost:4000"
 }
