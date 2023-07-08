@@ -27,11 +27,11 @@ window.addEventListener("scroll", () =>{
       <div className="logo pxy__10">
         <Link to="/">
           <img
-            src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg"
+            src=""
             alt=""
             className="logo"
             style={{
-              width: "150px",
+              width: "200px",
               height: "100px",
               objectFit: "contain",
               cursor: "pointer",
