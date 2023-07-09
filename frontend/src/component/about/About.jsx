@@ -6,6 +6,7 @@ import Loading from "../../more/Loader";
 import MetaData from "../../more/Metadata";
 import "./About.css";
 import BottomTab from "../../more/BottomTab";
+import aboutbg from "../../Assets/aboutbg.jpg";
 
 const About = () => {
     const { loading } = useSelector(
@@ -28,7 +29,7 @@ const About = () => {
         {/* 1st verse */}
         <div className="row flex">
           <div className="col__2">
-            <img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/page/about-1.png" />
+            <img src={aboutbg} />
           </div>
           <div className="col__2">
             <div className="meta">
@@ -39,7 +40,7 @@ const About = () => {
                   lineHeight: "1.2",
                 }}
               >
-                Welcome to Nest
+                Welcome to Queen Furniture Store
               </span>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed

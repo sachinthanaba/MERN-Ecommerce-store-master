@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import "./Home.css";
 import Carousel from "react-material-ui-carousel";
-import bg from "../../Assets/background.jpg";
-import bg2 from "../../Assets/background2.jpg";
+import bg from "../../Assets/furniture1.jpg";
+import bg2 from "../../Assets/furniture2.jpg";
 import ProductCard from "../Products/ProductCard";
 import  {useDispatch, useSelector} from "react-redux"
 import { clearErrors, getProduct } from "../../actions/ProductActions";
@@ -60,7 +60,7 @@ const Home = () => {
                  textAlign:"center",
                  width:"150px",
                  height:"40px",
-                 color: "#26c",
+                 color: "#ecc516",
                  fontFamily: "Segoe Script",
                  fontSize: "2.4em",
                  display:"flex",
@@ -95,23 +95,25 @@ const Home = () => {
                    paddingTop:"10px"
                  }}
                  >
-                 Get Free Shipping on all orders over $99.00
+                 Get Safes Shipping on all orders
                  </h2>
                </div>
                <div>
                  <a href="#container">
                  <button type="submit" style={{
-                   width:"135px",
-                   height:"50px",
+                   width:"175px",
+                   height:"70px",
                    border:"none",
-                   background:"#3BB77E",
+                   background:"#ecc516",
                    margin:"10px 0",
                    fontSize:"1.2vmax",
                    color:"#fff",
-                   cursor:"pointer"
+                   cursor:"pointer",
+                   textAlign:"center",
+                   alignItems:"Center"
                  }}
                  className="Home__button"
-                 >SHOP NOW</button>
+                 >Buy Now</button>
                  </a>
                </div>
              </div>

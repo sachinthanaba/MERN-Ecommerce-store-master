@@ -3,6 +3,7 @@ import React, { useRef } from "react";
 import "./Header.css";
 import { Link } from "react-router-dom";
 import { useSelector } from "react-redux";
+import logo from "../../Assets/logo.png";
 
 const Header = () => {
 const { cartItems } = useSelector((state) => state.cart);
@@ -27,11 +28,11 @@ window.addEventListener("scroll", () =>{
       <div className="logo pxy__10">
         <Link to="/">
           <img
-            src=""
+            src={logo}
             alt=""
             className="logo"
             style={{
-              width: "200px",
+              width: "400px",
               height: "100px",
               objectFit: "contain",
               cursor: "pointer",
@@ -55,7 +56,7 @@ window.addEventListener("scroll", () =>{
             alignItems: "center",
             height: "30px",
             width: "100%",
-            background: "tomato",
+            background: "#ecc516",
             overflow: "hidden",
           }}
         >
@@ -98,8 +99,9 @@ window.addEventListener("scroll", () =>{
           }}
         >
           <strong style={{
-            padding:"0px 5px"
-          }}>Email:</strong> temp123@gmail.com
+            padding:"0px 5px",
+            fontFamily:"Poppins"
+          }}>Email:</strong> queenfurniture@gmail.com
         </span>
       </div>
     </div>
@@ -108,7 +110,8 @@ window.addEventListener("scroll", () =>{
       <div
        className="navigation"
        style={{
-         padding:"0px 50px"
+         padding:"0px 50px",
+          fontFamily:"Poppins"
        }}
       >
         <ul

@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import logo from "./Assets/logo.png";
+import './Footer.css';
 
 const Footer = () => {
   return (
@@ -7,8 +9,8 @@ const Footer = () => {
       {/* Footer 1st part */}
       <div className="footer1st">
         <img
-          src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/logo.svg"
-          style={{ cursor: "pointer" }}
+          src={logo}
+          style={{ cursor: "pointer" , width:"400px"}}
         />
         <div className="location flex py__10">
           <svg
@@ -23,7 +25,7 @@ const Footer = () => {
             <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
           </svg>
           <strong>Address:</strong>
-          <h6>7400 Jashore Sadar,Bangladesh</h6>
+          <h6>Temple Road,Kurunegala</h6>
         </div>
 
         <div className="location flex py__10">
@@ -38,7 +40,7 @@ const Footer = () => {
             <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
           </svg>
           <strong>Email:</strong>
-          <h6>temp1234@gmail.com</h6>
+          <h6>queenfurniture@gmail.com</h6>
         </div>
 
         <div className="location flex py__10">
@@ -53,7 +55,7 @@ const Footer = () => {
             <path d="M8 1a5 5 0 0 0-5 5v1h1a1 1 0 0 1 1 1v3a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V6a6 6 0 1 1 12 0v6a2.5 2.5 0 0 1-2.5 2.5H9.366a1 1 0 0 1-.866.5h-1a1 1 0 1 1 0-2h1a1 1 0 0 1 .866.5H11.5A1.5 1.5 0 0 0 13 12h-1a1 1 0 0 1-1-1V8a1 1 0 0 1 1-1h1V6a5 5 0 0 0-5-5z" />
           </svg>
           <strong>Call us:</strong>
-          <h6>+8801785830142</h6>
+          <h6>+9445785832</h6>
         </div>
 
         <div className="location flex py__10">
@@ -72,14 +74,7 @@ const Footer = () => {
           <h6>10:00 Am - 10:00 Pm (everyday)</h6>
         </div>
 
-        <div className="app">
-            <h1>Install App</h1>
-            <h6>From App Store or Google Play</h6>
-            <div className="App__Image flex pointer">
-            <Link to="/creator"><img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/app-store.jpg" style={{"width":"150px","margin":"10px"}} /></Link>
-            <Link to="/creator"><img src="http://wp.alithemes.com/html/nest/demo/assets/imgs/theme/google-play.jpg" style={{"width":"150px","margin":"10px"}} /></Link>
-            </div>
-        </div>
+        
       </div>
       {/* Footer 2nd part */}
       <div className="mobile">
@@ -98,7 +93,7 @@ const Footer = () => {
              <Link to="/instagram.com"><h3>Instagram</h3></Link>
         </div>
       {/* Footer 4th part */}
-       <div className="footer__3rd__part">
+       <div className="footer__2rd__part">
             <h5>Buiseness</h5>
              <Link to="/creator"><h3>Create A Seller Account</h3></Link>
              <Link to="/creator"><h3>Seller Rules</h3></Link>
@@ -106,7 +101,7 @@ const Footer = () => {
              <Link to="/support"><h3>Report us</h3></Link>
        </div>
       {/* Footer 5th part */}
-      <div className="footer__4th__part">
+      <div className="footer__2th__part">
       <h5>Rules</h5>
       <Link to="/faq"><h3>FAQ</h3></Link>
       <Link to="/contact"><h3>contact us</h3></Link>
