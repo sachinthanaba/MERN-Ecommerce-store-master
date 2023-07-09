@@ -29,7 +29,7 @@ const About = () => {
         {/* 1st verse */}
         <div className="row flex">
           <div className="col__2">
-            <img src={aboutbg} />
+            <img src="https://img.freepik.com/premium-photo/happy-couple-choosing-furniture-store-showroom-man-woman-looking-samples-bedroom-shop-husband-wife-buys-goods-modern-home-interior_266732-22532.jpg?w=2000" />
           </div>
           <div className="col__2">
             <div className="meta">

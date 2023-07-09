@@ -3,6 +3,7 @@
     overflow: hidden;
     display: flex;
     justify-content: center;
+    padding-right: 10px;
 }
 
 .meta {
@@ -15,6 +16,8 @@
     font-size: 1rem;
     line-height: 1.5;
     margin-bottom: 25px;
+    justify-content: center;
+    text-align: justify;
 }
 .meta span{
     font-family: "Roboto";
