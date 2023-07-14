@@ -14,10 +14,11 @@ class Features {
         :{
 
         }
+    
         this.query = this.query.find({...keyword});
         return this;
     }
-   
+
     filter(){
         const queryCopy = { ...this.queryStr };
 
@@ -38,7 +39,5 @@ class Features {
         
         return this;
     }
-
 }
-
 module.exports = Features;

@@ -1,7 +1,0 @@
-PORT = 5000
-
-DB_URL = "mongodb://127.0.0.1:27017/ecommerce"
-
-JWT_SECRET_KEY = 1294393250325vdkjfkgd(fhgdfdg:)
-
-JWT_EXPIRES = 6d
